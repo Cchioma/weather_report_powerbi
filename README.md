@@ -83,13 +83,13 @@ Weather factors greatly influencing the average PM 2.5 value include the hours o
 
 ### Visualizations
 
-**Temperature**: The PM 2.5 value could also be seen to be negatively correlated with temperature. As the temperature increased, the PM 2.5 value decreased. This probably explains why its value is highest at midnight when the temperatures are usually lowest then it decreases in the afternoon when the temperature is around its peak. Temperature can also influence PM2.5 concentration through promoting the volatilization of ammonium nitrate and affect the emission rates from domestic heating and power production.
+1. **Temperature**: The PM 2.5 value could also be seen to be negatively correlated with temperature. As the temperature increased, the PM 2.5 value decreased. This probably explains why its value is highest at midnight when the temperatures are usually lowest then it decreases in the afternoon when the temperature is around its peak. Temperature can also influence PM2.5 concentration through promoting the volatilization of ammonium nitrate and affect the emission rates from domestic heating and power production.
 
 ![](temp.PNG)
 
 2. **Hours of snow fall**: The hours of snow fall were also found to significantly affect the PM 2.5 values. As the hours of snow fall increased, the PM 2.5 values decreased.
 
-![](is.PNG)
+![](snow.PNG)
 
 3. **Dew point**: The dew point is positively correlated with the average PM 2.5 values. As the dew point increased, so did the average PM 2.5 value except for a few cases of outliers. The highest PM 2.5 value was experienced at 0 â„ƒ.
 
@@ -107,6 +107,24 @@ Weather factors greatly influencing the average PM 2.5 value include the hours o
 
 ![](cbwd.PNG)
 
+## Analysis 2: Which month and year recorded the highest and lowest PM 2.5 value?
+
+I used a line chart to create a trend analysis to analyze the pm2.5 values over across the years and months. I discovered that in February, the average PM 2.5 value recorded its highest value while its lowest value was recorded in August. In Jan 2013, the average PM 2.5 recorded its highest value of 193.27 ug/m³ while it recorded its lowest value in Jan 2011 with 44.89 ug/m³ across the years. The year 2010 recorded the highest values so far while 2012 had the least values.
+
+![](MNTHSY.PNG)
+
+## Analysis 3: What is your forecast projection of the average pm2.5 value in the next 4 years?
+
+I discovered that after 2014, the PM 2.5 value values will most likely decrease from 97.80ug/m³ in 2014 to about 91.76ug/m³ in 2018. I used a line chart to show my projections of the average pm2.5 value over the next 4 years as shown below:
+
+![](ggh.PNG)
+
+## Recommendations
+1. Government should develop policies and set up agencies to monitor and regulate PM 2.5 values. A standard limit should be set and maintained.
+2. Government should embark on sensitizing the members of the public on some activities that increase the PM 2.5 values in the environment e.g. Wild fires, bush burning, burning of gas in motorized vehicles, industrial processes, power generators, stoves, fire places, smoking tobacco etc. These practices should be discouraged.
+3. Government can offer subsidies to companies producing electric cars to reduce cost and increase purchase while increasing tax on companies still producing gas or diesel cars, machines.
+4. During the cold season, Government can offer subsidies on electricity to encourage the use of electric heaters and discourage its citizens from using gas or burning wood to keep themselves warm.
+5. Residents should reduce time spent outdoors during periods with high pollution.
 
 
 
