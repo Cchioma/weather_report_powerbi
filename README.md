@@ -77,3 +77,37 @@ I cleaned them as follows:
   * POWER((1 + [CAGR]), No_of_years) )
   ```
 
+## Analysis 1 : What weather factors greatly influence the PM 2.5 value?
+
+Weather factors greatly influencing the average PM 2.5 value include the hours of rainfall, hours of snow, hour of the day, combined wind direction, temperature and the Dew point. 
+
+### Visualizations
+
+**Temperature**: The PM 2.5 value could also be seen to be negatively correlated with temperature. As the temperature increased, the PM 2.5 value decreased. This probably explains why its value is highest at midnight when the temperatures are usually lowest then it decreases in the afternoon when the temperature is around its peak. Temperature can also influence PM2.5 concentration through promoting the volatilization of ammonium nitrate and affect the emission rates from domestic heating and power production.
+
+![](temp.PNG)
+
+2. **Hours of snow fall**: The hours of snow fall were also found to significantly affect the PM 2.5 values. As the hours of snow fall increased, the PM 2.5 values decreased.
+
+![](is.PNG)
+
+3. **Dew point**: The dew point is positively correlated with the average PM 2.5 values. As the dew point increased, so did the average PM 2.5 value except for a few cases of outliers. The highest PM 2.5 value was experienced at 0 â„ƒ.
+
+![](dewp.PNG)
+
+4. **Hours of rainfall**: The results showed that the PM 2.5 value has a negative correlation with rainfall. The higher the hours of rainfall, the lower the concentration of PM 2.5. The PM 2.5 value was at its highest when there was no rainfall and its value decreased as the hours of rainfall increased.
+
+![](ir.PNG)
+
+5. **Hours of the day**: I also created a line chart to analyze the relationship between the average pm2.5 value and the hour of the day. The PM 2.5 recorded its highest average value 112.47 ug/m³ around midnight and gradually declined thereafter. It recorded its lowest value 86.34 ug/m³ around 3pm and steadily increased thereafter.
+
+![](hour.PNG)
+
+6. **Combined wind direction**: When analyzing the relationship between the combined wind direction and the average pm2.5 value , I discovered that the effect of wind direction was found to be negatively correlated with the PM 2.5 values. The PM 2.5 values were typically highest with predominantly south winds; days with calm/variable winds generally produced higher concentrations than did those with predominantly north winds.
+
+![](cbwd.PNG)
+
+
+
+
+
