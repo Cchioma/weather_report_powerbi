@@ -97,9 +97,9 @@ Weather factors greatly influencing the average PM 2.5 value include the hours o
 
 ![](ir.PNG)
 
-5. **Hours of the day**: I also created a line chart to analyze the relationship between the average pm2.5 value and the hour of the day. The PM 2.5 recorded its highest average value 112.47 ug/m³ around midnight and gradually declined thereafter. It recorded its lowest value 86.34 ug/m³ around 3pm and steadily increased thereafter.
+5. **Hours of the day**: I also created an area chart to analyze the relationship between the average pm2.5 value and the hour of the day. The PM 2.5 recorded its highest average value 112.47 ug/m³ around midnight and gradually declined thereafter. It recorded its lowest value 86.34 ug/m³ around 3pm and steadily increased thereafter.
 
-![](hour.PNG)
+![]hour1.PNG)
 
 6. **Combined wind direction**: When analyzing the relationship between the combined wind direction and the average pm2.5 value , I discovered that the effect of wind direction was found to be negatively correlated with the PM 2.5 values. The PM 2.5 values were typically highest with predominantly south winds; days with calm/variable winds generally produced higher concentrations than did those with predominantly north winds.
 
