@@ -4,7 +4,7 @@
 ![](air_quality_intro.jpg)
 ___
 ## Introduction
-This purpose of this project is to assess the impact of weather conditions on air quality.
+This purpose of this project is to assess the impact of weather conditions on air quality. 
 
 ### What is air quality?
 
@@ -22,7 +22,7 @@ Particulate matter 2.5 (PM2.5 ), refers to tiny particles or droplets in the air
 The following PowerBI features were incorporated into this project: 
 - DAX,
 - Bookmarking
-- Tooltips
+- Drillthrough filtering
 
 ## Data Modelling
 I created a one column dataset in excel containing the year values only. I also included the additional years I wanted to calculate pm2.5 values for (2015- 2018). I then uploaded it into my power query editor. It was linked automatically with the weather dataset using the year column.
@@ -81,8 +81,6 @@ I cleaned them as follows:
 
 Weather factors greatly influencing the average PM 2.5 value include the hours of rainfall, hours of snow, hour of the day, combined wind direction, temperature and the Dew point. 
 
-### Visualizations
-
 1. **Temperature**: The PM 2.5 value could also be seen to be negatively correlated with temperature. As the temperature increased, the PM 2.5 value decreased. This probably explains why its value is highest at midnight when the temperatures are usually lowest then it decreases in the afternoon when the temperature is around its peak. Temperature can also influence PM2.5 concentration through promoting the volatilization of ammonium nitrate and affect the emission rates from domestic heating and power production.
 
 ![](temp.PNG)
@@ -118,6 +116,20 @@ I used a line chart to create a trend analysis to analyze the pm2.5 values over 
 I discovered that after 2014, the PM 2.5 value values will most likely decrease from 97.80ug/m³ in 2014 to about 91.76ug/m³ in 2018. I used a line chart to show my projections of the average pm2.5 value over the next 4 years as shown below:
 
 ![](ggh.PNG)
+
+### Visualizations
+
+The final report consists of 4 interactive pages: home, weather factor, time series analysis, and drill through page as seen below:
+
+![](weather report4A.png)
+
+![](weather report4B.png) 
+
+![](weather report4C.png)
+
+![](weather report4D.png)
+
+
 
 ## Recommendations
 1. Government should develop policies and set up agencies to monitor and regulate PM 2.5 values. A standard limit should be set and maintained.
