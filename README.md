@@ -122,7 +122,13 @@ I discovered that after 2014, the PM 2.5 value values will most likely decrease 
 
 The final report consists of 4 interactive pages: home, weather factor, time series analysis, and drill through page as seen below:
 
-![](weather report4A.png)
+![](weather_report4A.png)
+
+![](weather_report4B.png)
+
+![](weather_report4C.png)
+
+![](weather_report4D.png)
 
 
 
